@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #213053;
+    margin: 0;
+    padding: 20px;
+}
+
+.header__logo {
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    /* убирает подчёркивание ссылки*/
+    color: #213053;
+}
+
+header a {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+button {
+    font-family: 'Raleway', sans—serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #875931;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 16px 36px rgba(213, 162, 52, 0.22);
+    padding: 10px;
+    /* внутренние отступы */
+}

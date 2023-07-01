@@ -1,0 +1,42 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+h1,
+h2,
+p {
+  font-family: 'Open Sans';
+  color: black;
+}
+
+/* <p class="accent-text">...</p> */
+.accent-text {
+  color: #ef7b18;
+  font-weight: bold;
+}
+
+/* <section id="about">...</section> */
+#about {
+  color: black;
+}
+
+/*
+1. id - you can use only once in you code
+2. class - you can use all the time
+*/
+
+body {
+  background-color: rgb(111, 158, 128);
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.accent-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: bold;
+  font-size: 20px;
+}
